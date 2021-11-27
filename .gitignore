@@ -1,0 +1,7 @@
+# temp file
+package-lock.json
+
+# folder(s)
+node_modules
+build
+.next
