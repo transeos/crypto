@@ -1,5 +1,6 @@
 # Editor
 Tested with VS code (https://code.visualstudio.com/download) and Atom (https://atom.io)
+Install 'Solidity' add-on.
 
 # Prerequisite(s) for Windows
 Install node.js from https://nodejs.org/en/download.
@@ -19,6 +20,7 @@ Open terminal in VS code (seperate terminal or powershell can be used as well) a
 It'll generate "Campaign.json" and "CampaignFactory.json" inside "kickstart/ethereum" directory. They contain abi and bytecode.
 
 # run unit tests of kickstart
+cd <kickstart directory>
 Open terminal and run following npm command -
 	"npm run test"
 All tests should pass.
@@ -39,7 +41,8 @@ Put <contract address> at "Load contract from Address" input box and click on "A
 # install frontend npm modules of kickstart
 cd <kickstart directory>
 run following npm installation command in terminal (macos) or powershell (windows) -
-	"npm install next@12.0.3 react@17.0.2 react-dom@17.0.2"
+	"npm install next@12.0.3 react@17.0.2 react-dom@17.0.2 next-routes@1.4.2 semantic-ui-react@2.0.4 semantic-ui-css@2.4.1"
+Use "--force" if needed.
 
 # launch kickstart server
 cd <kickstart directory>
