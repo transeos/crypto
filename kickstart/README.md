@@ -12,7 +12,7 @@ Install homebrew
 # install backend npm modules of kickstart
 cd <kickstart directory>
 run following npm installation command in terminal (macos) or powershell (windows) -
-	"npm install ganache-cli mocha solc@0.8.9 fs-extra web3@1.6.0 @truffle/hdwallet-provider@1.6.0"
+	"npm i --legacy-peer-deps"
 
 # compile smart contract of kickstart
 Open terminal in VS code (seperate terminal or powershell can be used as well) and run following npm command -
